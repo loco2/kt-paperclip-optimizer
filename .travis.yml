@@ -1,6 +1,5 @@
 language: ruby
 rvm:
-  - "2.2.0"
   - "2.3.0"
   - "2.4.0"
   - "2.5.0"
@@ -8,5 +7,7 @@ rvm:
   - "2.7.0"
   - "3.0.0"
 before_install:
+ - yes | gem update --system --force
+ - gem install bundler
  - sudo apt-get install -qq libjpeg-progs optipng
 script: bundle exec rspec -b spec
