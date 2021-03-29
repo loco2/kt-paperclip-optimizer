@@ -13,9 +13,9 @@ which supports many external optimization libraries such as [advpng](http://adva
 
 ### What's new
 
-**2020-03-27 3.0.0**
+**2020-03-31 3.0.0**
 
-* Use the maintained gem kt-paperclip instead of the deprecated papercip.
+* Use the maintained gem kt-paperclip instead of the deprecated papercip gem.
 
 **2015-01-16 2.0.0**
 
